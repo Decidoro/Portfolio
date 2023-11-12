@@ -1,0 +1,33 @@
+body{
+background-color: lightskyblue;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    display: flex;
+    list-style: none;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link a{
+    color: chocolate;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+h1{
+    font-size: 2rem;
+    padding-right: 3rem;
+}
