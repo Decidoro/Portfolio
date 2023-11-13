@@ -31,3 +31,16 @@ h1{
     font-size: 2rem;
     padding-right: 3rem;
 }
+
+#about{
+    display:flex;
+}
+
+.about-me{
+    display: flex;
+}
+
+#about .profile-pic{
+    height: 220px;
+    width: 200px;
+}
