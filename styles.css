@@ -1,5 +1,5 @@
 body {
-  background-color: #b8dbd9;
+  background-color: #F3F5F6;
   margin: 0;
   font-size: 18px;
 }
@@ -38,8 +38,9 @@ li {
 }
 
 .nav-link a:hover {
-  background-color: antiquewhite;
-  transition: 0.8s;
+  background-color: rgba(197, 191, 184, 0.993);
+  transition: 0.4s;
+  color: white;
 }
 
 h1 {
@@ -106,8 +107,9 @@ h1 {
 }
 
 #projects a:hover {
-  background-color: antiquewhite;
-  transition: 1s;
+  background-color: rgba(197, 191, 184, 0.993);
+  transition: .4s;
+  color: white;
 }
 
 /* PROJECTS H2 WAS ADDED WITH ABOUT H2!!!*/
@@ -162,8 +164,9 @@ h1 {
 }
 
 #contact-footer a:hover {
-  background-color: antiquewhite;
-  transition: 1s;
+  background-color: rgba(197, 191, 184, 0.993);
+  transition: .4s;
+  color: white;
 }
 
 /* Media queries to make the website responsove*/
@@ -171,22 +174,210 @@ h1 {
 /* Default styles for all screens */
 
 @media only screen and (max-width: 600px) {
+  /* styling the nav bar */
   #nav {
-    width: 75%;
+    display: block;
   }
+  #nav ul{
+    background-color: #CBC9CF;
+    margin: 0px;
+    box-shadow: 10px 10px 15px #83AF91;
+    padding-top: 10px;
+  }
+  #nav h1{
+    text-align: center;
+    padding: 0px;
+    font-size: 1.7rem;
+  }
+  .nav-link{
+    border: 2px solid #40634D;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 15px #8A99A8;
+  }
+  #nav ul{
+    padding: 20px;
+    justify-content: space-between;
+
+  }
+  .nav-link a{
+    margin: 0px;
+    padding: 0px;
+  }
+  /* styling the about me section */
   #about {
     display: block;
+  }
+  #about .profile-pic{
+    height: 250px;
+    width: 250px;
+    margin: 0px 0px 0px 20px;
+    text-align: center;
+  }
+  /* styling the skills section */
+  #skills{
+    margin-bottom: 15px;
+  }
+  /* styling the footer */
+
+  #contact-footer{
+    margin: 0px;
+    background-color: #CBC9CF;
+    border-radius: 0px;
+    height: 75%;
+  }
+  #contact-footer ul{
+    margin: 0px;
+  }
+  #contact-footer ul{
+    padding: 20px;
+    justify-content: space-between;
+  }
+  .footer-link{
+    border: 2px solid #40634D;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 15px #8A99A8;
+  }
+  #contact-footer a{
+    margin: 2px;
+    padding: 0px;
   }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   /* Styles for screens between 601px and 768px wide */
+  #nav {
+    display: block;
+  }
+  #nav ul{
+    background-color: #CBC9CF;
+    margin: 0px;
+    box-shadow: 10px 10px 15px #8A99A8;
+    padding-top: 10px;
+  }
+  #nav h1{
+    text-align: center;
+    padding: 0px;
+    font-size: 1.7rem;
+  }
+  .nav-link{
+    border: 2px solid #40634D;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 15px #8A99A8;
+  }
+  #nav ul{
+    padding: 20px;
+    justify-content: space-between;
+  }
+  .nav-link a{
+    margin: 0px;
+    padding: 0px;
+  }
+  /* styling the about me section */
+  #about {
+    display: block;
+    text-align: center;
+  }
+  #about .profile-pic{
+    height: 325px;
+    width: 325px;
+    margin: 0px 0px 0px 20px;
+    text-align: center;
+  }
+  /* styling the skills section */
+  #skills{
+    margin-bottom: 15px;
+  }
+  /* styling the footer */
+
+  #contact-footer{
+    margin: 0px;
+    background-color: #CBC9CF;
+    border-radius: 0px;
+    height: 75%;
+  }
+  #contact-footer ul{
+    margin: 0px;
+}
+#contact-footer ul{
+  padding: 20px;
+  justify-content: space-between;
+}
+.footer-link{
+  border: 2px solid #40634D;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 15px #8A99A8;
+}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   /* Styles for screens between 769px and 992px wide */
+  #nav {
+    display: block;
+  }
+  #nav ul{
+    background-color: #558564;
+    margin: 0px;
+    box-shadow: 10px 10px 15px #83AF91;
+    padding-top: 10px;
+  }
+  #nav h1{
+    text-align: center;
+    padding: 0px;
+    font-size: 1.7rem;
+  }
+  .nav-link{
+    border: 2px solid #40634D;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 15px #285236;
+  }
+  #nav ul{
+    padding: 20px;
+    justify-content: space-between;
+  }
+  .nav-link a{
+    margin: 0px;
+    padding: 0px;
+  }
+  /* styling the about me section */
+  #about {
+    display: block;
+    text-align: center;
+  }
+  #about .profile-pic{
+    height: 325px;
+    width: 325px;
+    margin: 0px 0px 0px 20px;
+    text-align: center;
+  }
+  /* styling the skills section */
+  #skills{
+    margin-bottom: 15px;
+  }
+  /* styling the footer */
+
+  #contact-footer{
+    margin: 0px;
+    background-color: #558564;
+    border-radius: 0px;
+    height: 75%;
+  }
+  #contact-footer ul{
+    margin: 0px;
+}
+  #contact-footer ul{
+  padding: 20px;
+  justify-content: space-between;
+}
+  .footer-link{
+  border: 2px solid #40634D;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 15px #285236;
+}
 }
 
-@media only screen and (min-width: 993px) {
-  /* Styles for screens wider than 992px */
-}
